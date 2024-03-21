@@ -1,0 +1,26 @@
+.header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  border-bottom: 1px solid gray;
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+.button {
+  margin-right: 10px;
+}
+
+.createBoardModal {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  gap: 20px;
+}

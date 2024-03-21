@@ -1,0 +1,26 @@
+.modal-overlay {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  top: 75px;
+  left: 44%;
+  border: 1px solid gray;
+  border-radius: 16px;
+  z-index: 10000;
+  background-color: aliceblue;
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.close-btn {
+  left: 260px;
+  top: 20px;
+  position: absolute;
+  cursor: pointer;
+}
+.header {
+  margin: 20px;
+}
